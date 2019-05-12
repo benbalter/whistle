@@ -1,0 +1,11 @@
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
+    - whistle.gemspec
+
+Style/Documentation:
+  Enabled: false
+
+Lint/Debugger:
+  Exclude:
+    - script/console

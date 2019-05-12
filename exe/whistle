@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'whistle'
+
+client = Whistle::Client.new
+pet = client.pet
+
+if pet.current_location.inside?
+  puts "#{pet.name} has been home for #{pet.time_inside(humanize: true)}."
+else
+  puts "#{pet.name} is currently outside"
+end

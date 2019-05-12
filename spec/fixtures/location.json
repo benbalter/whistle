@@ -1,0 +1,14 @@
+{
+  "timeline_items": [{
+    "start_time": "2020-01-01 09:00Z",
+    "end_time": null,
+    "type": "inside",
+    "data": {}
+  },
+  {
+    "start_time": "2020-01-01 08:00Z",
+    "end_time": "2020-01-01 09:00Z",
+    "type": "outside",
+    "data": {}
+  }]
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'pry'
+require 'whistle'
+
+client = Whistle::Client.new
+Whistle.logger.level = Logger::DEBUG
+
+binding.pry
