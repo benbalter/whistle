@@ -2,6 +2,8 @@
 
 An unofficial Ruby client for the unofficial Whistle v3 API, unofficially
 
+Based on the Whistle pet tracker API as documented in https://community.home-assistant.io/t/whistle-v3-api/89538.
+
 ## Usage
 
 ```ruby
